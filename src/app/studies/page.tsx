@@ -31,7 +31,7 @@ export default function StudiesPage() {
       {/* Process & Current Areas - Beige Background */}
       <section className="bg-beige py-14 md:py-20">
         <div className="max-w-7xl mx-auto px-6 lg:px-12">
-          <div className="grid md:grid-cols-2 gap-10 lg:gap-12 items-start">
+          <div className="grid md:grid-cols-2 gap-10 lg:gap-12 items-stretch">
             {/* Process Box - Dark Green */}
             <div className="bg-green-dark text-white p-8 md:p-10">
               <h2 className="text-3xl md:text-4xl font-serif mb-8">
