@@ -109,11 +109,17 @@ export default function StudiesPage() {
                   </span>
                   <p className="text-lg leading-relaxed">
                     <strong className="text-foreground">
-                      Facility Model Innovation
+                      Echoes Between Ages
                     </strong>
-                    : Redesigning senior care facilities to improve
-                    accessibility, enhance quality of care, and reduce overall
-                    system costs.
+                    : An eight-week intergenerational program pairing high
+                    school students with seniors in skilled nursing facilities
+                    for weekly, face-to-face interviews about their life
+                    stories. The program fosters meaningful social connection
+                    and memory engagement for seniors while giving students a
+                    powerful perspective on the depth and value of lived
+                    experience. At the end, students create written narratives
+                    that are compiled into a hardcover book and gifted to each
+                    participating senior as a lasting tribute to their legacy.
                   </p>
                 </li>
               </ul>
@@ -197,7 +203,8 @@ export default function StudiesPage() {
           {/* Download Button */}
           <div className="text-center mt-10">
             <a
-              href="#"
+              href="/reports/telemedicine-final-report-florida-2022.pdf"
+              download
               className="inline-block px-12 py-4 bg-foreground text-white text-base tracking-wide rounded-full hover:bg-gray-800 transition-colors"
             >
               Download the Full Report Here
