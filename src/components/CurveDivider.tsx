@@ -5,7 +5,7 @@ interface CurveDividerProps {
 }
 
 export default function CurveDivider({
-  from = "#2d4a2d",
+  from = "#023131",
   to = "#d5cfc7",
   flip = false,
 }: CurveDividerProps) {

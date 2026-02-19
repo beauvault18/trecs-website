@@ -33,7 +33,7 @@ export default function Home() {
       </section>
 
       {/* Curve: Green to Beige */}
-      <CurveDivider from="#2d4a2d" to="#d5cfc7" />
+      <CurveDivider from="#023131" to="#d5cfc7" />
 
       {/* Mission Statement - Beige */}
       <section className="bg-beige py-14 md:py-20">
@@ -177,7 +177,7 @@ export default function Home() {
       </section>
 
       {/* Curve: Green to White */}
-      <CurveDivider from="#2d4a2d" to="#ffffff" flip />
+      <CurveDivider from="#023131" to="#ffffff" flip />
     </div>
   );
 }

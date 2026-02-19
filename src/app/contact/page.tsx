@@ -15,14 +15,14 @@ export default function ContactPage() {
         <div className="max-w-5xl mx-auto px-6 lg:px-12 text-center">
           <h1 className="text-4xl md:text-6xl font-serif mb-6">Contact</h1>
           <p className="text-xl md:text-2xl text-white/85 leading-relaxed max-w-3xl mx-auto">
-            We&apos;d love to hear from you. Reach out to learn more about our
-            research and initiatives.
+            You can contact The TRECS Institute by mailing, emailing or
+            calling:
           </p>
         </div>
       </section>
 
       {/* Curve: Green to Beige */}
-      <CurveDivider from="#2d4a2d" to="#d5cfc7" />
+      <CurveDivider from="#023131" to="#d5cfc7" />
 
       {/* Contact Info - Beige */}
       <section className="bg-beige py-14 md:py-20">
@@ -33,33 +33,30 @@ export default function ContactPage() {
               <h2 className="text-3xl font-serif text-green-accent mb-8">
                 Get in Touch
               </h2>
-              <div className="space-y-6">
-                <div>
-                  <h3 className="text-xl font-serif mb-1">Email</h3>
+              <div className="space-y-2 text-lg text-gray-700">
+                <p className="text-xl font-serif font-bold text-foreground">
+                  John Whitman
+                </p>
+                <p>Executive Director</p>
+                <p>The TRECS Institute</p>
+                <p>163 Marienstein Road</p>
+                <p>Upper Black Eddy, PA 18972</p>
+                <p className="mt-4">
                   <a
-                    href="mailto:Johnwhitman@thetrecsinstitue.com"
-                    className="text-lg text-gray-700 hover:text-green-dark transition-colors"
+                    href="mailto:JohnWhitman@theTRECSinstitute.org"
+                    className="hover:text-green-dark transition-colors"
                   >
-                    Johnwhitman@thetrecsinstitue.com
+                    JohnWhitman@theTRECSinstitute.org
                   </a>
-                </div>
-                <div>
-                  <h3 className="text-xl font-serif mb-1">Phone</h3>
+                </p>
+                <p>
                   <a
                     href="tel:4845576980"
-                    className="text-lg text-gray-700 hover:text-green-dark transition-colors"
+                    className="hover:text-green-dark transition-colors"
                   >
-                    (484) 557-6980
+                    484-557-6980
                   </a>
-                </div>
-                <div>
-                  <h3 className="text-xl font-serif mb-1">Address</h3>
-                  <p className="text-lg text-gray-700">
-                    163 Marienstein Rd
-                    <br />
-                    New York, NY 18972
-                  </p>
-                </div>
+                </p>
               </div>
             </div>
 

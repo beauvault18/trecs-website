@@ -26,7 +26,7 @@ export default function StudiesPage() {
       </section>
 
       {/* Curve: Green to Beige */}
-      <CurveDivider from="#2d4a2d" to="#d5cfc7" />
+      <CurveDivider from="#023131" to="#d5cfc7" />
 
       {/* Process & Current Areas - Beige Background */}
       <section className="bg-beige py-14 md:py-20">
@@ -35,7 +35,7 @@ export default function StudiesPage() {
             {/* Process Box - Dark Green */}
             <div className="bg-green-dark text-white p-8 md:p-10">
               <h2 className="text-3xl md:text-4xl font-serif mb-8">
-                Our Process in Health Care Impact Studies
+                Our Process in Completing Health Care Impact Studies
               </h2>
               <ol className="space-y-6">
                 <li className="flex gap-4">
@@ -55,7 +55,7 @@ export default function StudiesPage() {
                   <p className="text-lg leading-relaxed">
                     Identify and secure pilot sites and funding sources to
                     implement the potential solution identified and evaluate the
-                    impact over time
+                    impact through real time observational studies
                   </p>
                 </li>
                 <li className="flex gap-4">
@@ -65,7 +65,7 @@ export default function StudiesPage() {
                   <p className="text-lg leading-relaxed">
                     Report on the findings of the study and if positive, offer
                     recommendations for expanding the availability of that
-                    solution.
+                    solution throughout the healthcare system.
                   </p>
                 </li>
               </ol>
@@ -84,8 +84,8 @@ export default function StudiesPage() {
                   <p className="text-lg leading-relaxed">
                     <strong className="text-foreground">Social Robots</strong>:
                     Utilizing social robots to support both socially isolated
-                    seniors living alone and residents in senior living
-                    facilities, promoting social interaction, reducing
+                    seniors living alone and residents in senior care
+                    facilities, by promoting social interaction, reducing
                     loneliness, and enabling remote patient monitoring and
                     medication compliance.
                   </p>
@@ -128,7 +128,54 @@ export default function StudiesPage() {
         </div>
       </section>
 
-      {/* Past Health Care Impact Studies - White */}
+      {/* Curve: Beige to White */}
+      <CurveDivider from="#d5cfc7" to="#ffffff" flip />
+
+      {/* Sponsored Focus Groups - White */}
+      <section className="bg-white py-14 md:py-20">
+        <div className="max-w-5xl mx-auto px-6 lg:px-12">
+          <h2 className="text-4xl md:text-5xl font-serif text-center mb-6">
+            Sponsored Focus Groups
+          </h2>
+          <p className="text-xl text-gray-700 leading-relaxed text-center max-w-3xl mx-auto mb-10">
+            The TRECS Institute has hosted a series of focus groups with support
+            from the Leonard Davis Institute at the University of Pennsylvania.
+            These focus groups invite national leaders representing all aspects
+            of the topic being discussed with the goal of identifying realistic
+            opportunities, to make improvements, and increase care for our
+            nation&apos;s seniors.
+          </p>
+
+          <h3 className="text-2xl md:text-3xl font-serif text-green-accent text-center mb-8">
+            Past Focus Groups have included:
+          </h3>
+          <div className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
+            <div className="bg-green-dark text-white p-8">
+              <p className="text-lg leading-relaxed">
+                Improving Dental Care in our Nation&apos;s Skilled Nursing
+                Facilities
+              </p>
+            </div>
+            <div className="bg-green-dark text-white p-8">
+              <p className="text-lg leading-relaxed">
+                The Availability of Behavioral Health Services in Long Term Care
+              </p>
+            </div>
+            <div className="bg-green-dark text-white p-8">
+              <p className="text-lg leading-relaxed">
+                Low Income Senior Housing in America
+              </p>
+            </div>
+            <div className="bg-green-dark text-white p-8">
+              <p className="text-lg leading-relaxed">
+                The &ldquo;No Brainers&rdquo; in Long Term Care
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Past Health Care Impact Studies - White (continues) */}
       <section className="bg-white py-16 md:py-22">
         <div className="max-w-4xl mx-auto px-6 lg:px-12">
           <h2 className="text-4xl md:text-5xl font-serif text-center mb-4">

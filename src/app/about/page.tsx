@@ -22,7 +22,7 @@ export default function AboutPage() {
       </section>
 
       {/* Curve: Green to Beige */}
-      <CurveDivider from="#2d4a2d" to="#d5cfc7" />
+      <CurveDivider from="#023131" to="#d5cfc7" />
 
       {/* Who We Are - Beige */}
       <section className="bg-beige py-14 md:py-20">
