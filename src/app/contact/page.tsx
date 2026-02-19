@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import CurveDivider from "@/components/CurveDivider";
+import ContactForm from "@/components/ContactForm";
 
 export const metadata: Metadata = {
   title: "Contact | The TRECS Institute",
@@ -61,62 +62,7 @@ export default function ContactPage() {
             </div>
 
             {/* Contact Form */}
-            <div className="bg-white p-8 md:p-10">
-              <h2 className="text-2xl font-serif mb-6">Send a Message</h2>
-              <form className="space-y-5">
-                <div>
-                  <label
-                    htmlFor="name"
-                    className="block text-base text-gray-600 mb-1"
-                  >
-                    Name
-                  </label>
-                  <input
-                    type="text"
-                    id="name"
-                    name="name"
-                    className="w-full px-4 py-3 text-base border border-gray-300 bg-white focus:ring-2 focus:ring-green-dark focus:border-transparent outline-none transition"
-                    placeholder="Your name"
-                  />
-                </div>
-                <div>
-                  <label
-                    htmlFor="email"
-                    className="block text-base text-gray-600 mb-1"
-                  >
-                    Email
-                  </label>
-                  <input
-                    type="email"
-                    id="email"
-                    name="email"
-                    className="w-full px-4 py-3 text-base border border-gray-300 bg-white focus:ring-2 focus:ring-green-dark focus:border-transparent outline-none transition"
-                    placeholder="your@email.com"
-                  />
-                </div>
-                <div>
-                  <label
-                    htmlFor="message"
-                    className="block text-base text-gray-600 mb-1"
-                  >
-                    Message
-                  </label>
-                  <textarea
-                    id="message"
-                    name="message"
-                    rows={5}
-                    className="w-full px-4 py-3 text-base border border-gray-300 bg-white focus:ring-2 focus:ring-green-dark focus:border-transparent outline-none transition resize-none"
-                    placeholder="How can we help?"
-                  />
-                </div>
-                <button
-                  type="submit"
-                  className="w-full px-6 py-4 bg-green-dark text-white text-base tracking-wide hover:bg-green-900 transition-colors"
-                >
-                  Send Message
-                </button>
-              </form>
-            </div>
+            <ContactForm />
           </div>
         </div>
       </section>
