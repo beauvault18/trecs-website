@@ -7,6 +7,7 @@ import { useState } from "react";
 const navLinks = [
   { href: "/about", label: "Our Mission" },
   { href: "/studies", label: "Health Care Impact Studies" },
+  { href: "/echoes", label: "Echoes Between Ages" },
   { href: "/summits", label: "Senior Care Leadership Summits" },
   { href: "/contact", label: "Contact" },
 ];
